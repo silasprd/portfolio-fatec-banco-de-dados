@@ -1,4 +1,5 @@
 # SILAS RAFAEL BARRETO PRADO
+
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 ## Introdução
@@ -6,41 +7,27 @@
 Com formação técnica em Desenvolvimento de Sistemas pelo SENAI em parceria com a Embraer, onde trabalhei com tecnologias como HTML, CSS, Java, JavaScript, NodeJS, Angular e MySQL. Explorando o NodeJS, aprofundei meus conhecimentos em AngularJS e trabalhei com frameworks como Vue e React.
 
 ## Contatos
-* [GIT](https://github.com/silasprd/)
-* [LinkedIn](https://www.linkedin.com/in/silasprd/)
-## Meus Principais Conhecimentos
-<section class="flex-container">
-    <div class="flex-item">
-        <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg">
-        <h4>Java</h4>
-    </div>
-    <div class="flex-item">
-        <img align="center" alt="TS-icon" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"> 
-        <h4> TypeScript</h4>
-    </div>
-    <div class="flex-item">
-        <img align="center" alt="TS-icon" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"> 
-        <h4> NodeJS</h4>
-    </div>
-    <div class="flex-item">
-        <img align="center" alt="Angular-icon" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
-        <h4>AngularJS</h4>
-    </div>
-    <div class="flex-item">
-        <img align="center" alt="HTML-icon" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-        <h4>HTML</h4>
-    </div>
-    <div class="flex-item">
-        <img align="center" alt="CSS-icon" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-        <h4>CSS</h4>
-    </div>
-</section>
 
+- [GIT](https://github.com/silasprd/)
+- [LinkedIn](https://www.linkedin.com/in/silasprd/)
+
+## Meus Principais Conhecimentos
+
+<section class="flex-container">
+    <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg">
+    <h4>Java</h4>
+    <img align="center" alt="TS-icon" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"> 
+    <h4> TypeScript</h4>
+    <img align="center" alt="TS-icon" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"> 
+    <h4> NodeJS</h4>
+</section>
 
 ## Meus Projetos
 
 ### 1º Semestre • 1/2022 - BoardClass
+
 Repositório: [GIT](https://www.git.com/silasprd/BoardClass)
+
 <p align="justify">Parceiro Acadêmico: <a href="https://fatecsjc-prd.azurewebsites.net/">Faculdade de Tecnologia de São José dos Campos</a></p>
 
 <img src="Semestre1/images/boardclass.jpeg" widht="600px" height="200px">
@@ -50,8 +37,8 @@ Repositório: [GIT](https://www.git.com/silasprd/BoardClass)
 
 <!-- Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a solução entregue pela equipe (mínimo de um parágrafo por item). Recomenda-se o uso de figuras (ou até mesmo vídeos) para ilustrar os principais projetos. -->
 
-
 #### Tecnologias Utilizadas
+
 <section style="display: flex;">
     <div style="display: flex; align-items:center; margin: 0 20px;">
         <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg">
@@ -76,6 +63,7 @@ Repositório: [GIT](https://www.git.com/silasprd/BoardClass)
 </section>
 
 #### Contribuições Pessoais
+
 <section>
     <p>Como parte da equipe de desenvolvimento do projeto da assistente virtual web, concentrei minha atuação na criação e implementação das telas que compõem a interface do usuário. Minha contribuição foi crucial para garantir uma experiência intuitiva e eficiente para os professores que utilizam a plataforma, permitindo-lhes gerenciar turmas, alunos e disciplinas de forma simples e organizada.</p>
     <ul>
@@ -118,6 +106,7 @@ Repositório: [GIT](https://www.git.com/silasprd/BoardClass)
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou. -->
 
 #### Hard Skills
+
 <section>
     <ul>
         <li><b>ReactJS: </b> Possuo habilidades avançadas em ReactJS, sendo capaz de desenvolver interfaces complexas de forma eficiente e escalável. Meu conhecimento inclui o uso de componentes, hooks, roteamento e gerenciamento de estado com Redux ou Context API.</li><br>
@@ -131,6 +120,7 @@ Apresente suas contribuições no projeto. Foque nas funcionalidades em que voc�
 <!-- Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o nível de proficiência alcançado. Exemplo: CSS - Sei fazer com autonomia -->
 
 #### Soft Skills
+
 <section>
     <ul>
         <li><b>Comunicação Efetiva: </b>A habilidade de comunicação foi fundamental durante todo o projeto, especialmente na interação com outros membros da equipe e na compreensão das necessidades dos usuários finais. Participei ativamente de reuniões para discussão de requisitos, feedbacks e resolução de problemas.</li><br>
@@ -152,9 +142,3 @@ Mesmo formato
 
 ### Em 2023-2
 Mesmo formato -->
-
-
-
-
-
-
