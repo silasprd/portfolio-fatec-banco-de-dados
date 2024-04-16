@@ -39,7 +39,7 @@ Repositório: [GIT](https://www.git.com/silasprd/BoardClass)
 
 #### Tecnologias Utilizadas
 
-<section style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px">
+<section>
     <div>
         <img align="center" alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg">
         Figma: Design
@@ -67,38 +67,26 @@ Repositório: [GIT](https://www.git.com/silasprd/BoardClass)
 <section>
     <p>Como parte da equipe de desenvolvimento do projeto da assistente virtual web, concentrei minha atuação na criação e implementação das telas que compõem a interface do usuário. Minha contribuição foi crucial para garantir uma experiência intuitiva e eficiente para os professores que utilizam a plataforma, permitindo-lhes gerenciar turmas, alunos e disciplinas de forma simples e organizada.</p>
     <ul>
+        <h4>Contribuições</h4>
         <li><b>Análise de Requisitos:</b> Iniciei minha participação no projeto realizando uma análise detalhada dos requisitos funcionais e não funcionais fornecidos.</li>
         <li><b>Design de Interface:</b> Utilizando ReactJS como framework principal, trabalhei na concepção e desenvolvimento de todas as telas da assistente virtual.</li>
         <li><b>Implementação Responsiva:</b> Consciente da importância da acessibilidade em diferentes dispositivos, implementei um design responsivo em todas as telas desenvolvidas.</li>
         <li><b>Integração com Comandos de Voz:</b> Colaborei com a equipe para integrar as telas desenvolvidas com o sistema de reconhecimento de voz da assistente virtual.</li>
         <li><b>Feedback Visual:</b> Integrei elementos visuais de feedback para fornecer aos usuários retorno imediato sobre suas ações.</li>
     </ul>
-    <ul style="list-style: none;">
-        <h4>Tecnologias utilizadas</h4>
+    <ul>
+        <h4>Tecnologias</h4>
         <li>
-            <div style="display: flex; align-items:center;">
-                <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg">
-                <h4>ReactJS: Como principal framework para o desenvolvimento das telas da interface.</h4>
-            </div>
+            <b>ReactJS:</b> Como principal framework para o desenvolvimento das telas da interface.    
         </li>
         <li>
-            <div style="display: flex; align-items:center;">
-                <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg">
-                <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg">
-                <h4>HTML e CSS: Utilizados para a estruturação e estilização das páginas.</h4>
-            </div>
+            <b>HTML e CSS:</b> Utilizados para a estruturação e estilização das páginas.
         </li>
         <li>
-            <div style="display: flex; align-items:center;">
-                <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg">
-                <h4>JavaScript: Linguagem de programação fundamental para a interatividade das telas.</h4>
-            </div>
+            <b>JavaScript:</b> Linguagem de programação fundamental para a interatividade das telas.
         </li>
         <li>
-            <div style="display: flex; align-items:center;">
-                <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg">
-                <h4>ReactJS: Como principal framework para o desenvolvimento das telas da interface.</h4>
-            </div>
+            <b>ReactJS:</b> Como principal framework para o desenvolvimento das telas da interface.
         </li>
     </ul>
 </section>
