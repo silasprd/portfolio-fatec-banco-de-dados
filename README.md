@@ -9,7 +9,7 @@ Com formação técnica em Desenvolvimento de Sistemas pelo SENAI em parceria co
 * [LinkedIn](https://www.linkedin.com/in/silasprd/)
 
 ## Meus Principais Conhecimentos
-<section style="display: flex;">
+<section style="display: flex; flex-direction: row;">
     <div style="display: flex; align-items:center; margin: 0 20px;">
         <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg">
         <h4>Java</h4>
