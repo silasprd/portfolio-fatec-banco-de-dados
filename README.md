@@ -13,14 +13,14 @@ Com formação técnica em Desenvolvimento de Sistemas pelo SENAI em parceria co
 
 ## Meus Principais Conhecimentos
 
-<section class="flex-container">
-    <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg">
-    <h4>Java</h4>
-    <img align="center" alt="TS-icon" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"> 
-    <h4> TypeScript</h4>
-    <img align="center" alt="TS-icon" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"> 
-    <h4> NodeJS</h4>
-</section>
+<div style="display: inline_block; font-size: 16px;">
+    <img align="center" alt="TS-icon" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">TypeScript
+    <img align="center" alt="TS-icon" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg">NodeJS
+    <img align="center" alt="TS-icon" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg">AngularJS
+    <img align="center" alt="TS-icon" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">HTML
+    <img align="center" alt="TS-icon" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">CSS
+    <img align="center" alt="JS-icon" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-plain-wordmark.svg">Java
+</div>
 
 ## Meus Projetos
 
@@ -39,26 +39,17 @@ Repositório: [GIT](https://www.git.com/silasprd/BoardClass)
 
 #### Tecnologias Utilizadas
 
-<section style="display: flex;">
-    <div style="display: flex; align-items:center; margin: 0 20px;">
-        <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg">
-        <h4>Figma: Design</h4>
-    </div>
-    <div style="display: flex; align-items:center; margin: 0 20px;">
-        <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg">
-        <h4>NodeJS: Ecossistema</h4>
-    </div>
-    <div style="display: flex; align-items:center; margin: 0 20px;">
-        <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg">
-        <h4>React: Frontend</h4>
-    </div>
-    <div style="display: flex; align-items:center; margin: 0 20px;">
-        <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/adonisjs/adonisjs-original.svg">
-        <h4>AdonisJS: Backend</h4>
-    </div>
-    <div style="display: flex; align-items:center; margin: 0 20px;">
-        <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg">
-        <h4>PostgresSQL: Banco de dados</h4>
+<section style="display: inline_block; font-size: 16px;">
+    <img align="center" alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg">
+        Figma: Design
+    <img align="center" alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg">
+        NodeJS: Ecossistema
+    <img align="center" alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg">
+        React: Frontend
+    <img align="center" alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/adonisjs/adonisjs-original.svg">
+        AdonisJS: Backend
+    <img align="center" alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg">
+        PostgresSQL: Banco de dados
     </div>
 </section>
 
