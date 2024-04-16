@@ -1,4 +1,5 @@
 # SILAS RAFAEL BARRETO PRADO
+<link rel="stylesheet" type="text/css" href="styles.css">
 
 ## Introdução
 
@@ -7,30 +8,29 @@ Com formação técnica em Desenvolvimento de Sistemas pelo SENAI em parceria co
 ## Contatos
 * [GIT](https://github.com/silasprd/)
 * [LinkedIn](https://www.linkedin.com/in/silasprd/)
-
 ## Meus Principais Conhecimentos
-<section style="display: flex; flex-direction: row;">
-    <div style="display: flex; align-items:center; margin: 0 20px;">
+<section class="flex-container">
+    <div class="flex-item">
         <img alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg">
         <h4>Java</h4>
     </div>
-    <div style="display: flex; align-items:center; margin: 0 20px;">
+    <div class="flex-item">
         <img align="center" alt="TS-icon" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"> 
         <h4> TypeScript</h4>
     </div>
-    <div style="display: flex; align-items:center; margin: 0 20px;">
+    <div class="flex-item">
         <img align="center" alt="TS-icon" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"> 
         <h4> NodeJS</h4>
     </div>
-    <div style="display: flex; align-items:center; margin: 0 20px;">
+    <div class="flex-item">
         <img align="center" alt="Angular-icon" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
         <h4>AngularJS</h4>
     </div>
-    <div style="display: flex; align-items:center; margin: 0 20px;">
+    <div class="flex-item">
         <img align="center" alt="HTML-icon" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
         <h4>HTML</h4>
     </div>
-    <div style="display: flex; align-items:center; margin: 0 20px;">
+    <div class="flex-item">
         <img align="center" alt="CSS-icon" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
         <h4>CSS</h4>
     </div>
@@ -38,30 +38,6 @@ Com formação técnica em Desenvolvimento de Sistemas pelo SENAI em parceria co
 
 
 ## Meus Projetos
-
-<!-- <div class="semestre1">
-<ul><a href="#board-class">1º Semestre • 1/2022 • Boardclass</a>
-  <details>
-    <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto">Arquitetura do Projeto</a></ul>
-    <ul>◻️ <a href="#prévia-da-solução">Prévia da Solução</a></ul>
-    <ul>◻️ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></ul>
-    <ul>◻️ <a href="#contribuições-pessoais">Contribuições Pessoais</a></ul>
-    <ul>◻️ <a href="#lições-aprendidas">Lições Aprendidas</a>
-    <ul>◻️ <a href="#hard-skills">Hard Skills</a></ul>
-    <ul>◻️ <a href="#hard-skills">Soft Skills</a></ul>
-    </ul>
-  </details>
-</ul> -->
-
-<!-- <div class="semestre1">
-    <h3>Boardclass</h3>
-    <h4>1º Semestre • 1/2022 </h4>
-    <p align="justify">Parceiro Acadêmico: <a href="https://fatecsjc-prd.azurewebsites.net/">Faculdade de Tecnologia de São José dos Campos</a></p>
-    <p align="center"><img src="Semestre1/images/boardclass.jpeg" widht="600px" height="200px"></img>
-    <p align="justify">A assistente BoardClass é uma assistente virtual web. Seu objetivo é auxiliar professores com o gerenciamento de turmas, alunos e disciplinas: permitindo a criação de novas turmas/disciplinas, agendamento de provas, adição de novos alunos, entre outras funcionalidades.</p>
-    <p align="justify">Ela funciona recebendo o comando por voz (por meio do professor) e realizando em seguida o que foi pedido. Em alguns casos, é necessário que o professor dê o comando por voz e então tenha que inserir manualmente os dados para que a ação seja concluída. Por exemplo na criação de um aluno, ele deve inserir as informações do aluno por meio do teclado do próprio computador.</p>
-</div> -->
 
 ### 1º Semestre • 1/2022 - BoardClass
 Repositório: [GIT](https://www.git.com/silasprd/BoardClass)
@@ -165,7 +141,7 @@ Apresente suas contribuições no projeto. Foque nas funcionalidades em que voc�
 </section>
 <!-- Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais. Exemplo: Comunicação - Precisei exercitar minhas habilidades de comunicação para viabilizar as reuniões semanais levando em conta as disponibilidades dos membros, que não cursavam as mesmas disciplinas. -->
 
-### Em 2022-1
+<!-- ### Em 2022-1
 Mesmo formato
 
 ### Em 2022-2
@@ -175,7 +151,7 @@ Mesmo formato
 Mesmo formato
 
 ### Em 2023-2
-Mesmo formato
+Mesmo formato -->
 
 
 
