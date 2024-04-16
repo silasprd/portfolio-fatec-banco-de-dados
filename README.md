@@ -39,7 +39,7 @@ Repositório: [GIT](https://www.git.com/silasprd/BoardClass)
 
 #### Tecnologias Utilizadas
 
-<section style="display: inline_block; font-size: 16px;">
+<section style="display: inline_block; font-size: 14px;">
     <img align="center" alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg">
         Figma: Design
     <img align="center" alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg">
