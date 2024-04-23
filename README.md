@@ -66,29 +66,55 @@ Repositório: [GIT](https://www.git.com/silasprd/BoardClass)
 
 <section>
     <p>Como parte da equipe de desenvolvimento do projeto da assistente virtual web, concentrei minha atuação na criação e implementação das telas que compõem a interface do usuário. Minha contribuição foi crucial para garantir uma experiência intuitiva e eficiente para os professores que utilizam a plataforma, permitindo-lhes gerenciar turmas, alunos e disciplinas de forma simples e organizada.</p>
-    <ul>
-        <h4>Contribuições</h4>
-        <li><b>Análise de Requisitos:</b> Iniciei minha participação no projeto realizando uma análise detalhada dos requisitos funcionais e não funcionais fornecidos.</li>
-        <li><b>Design de Interface:</b> Utilizando ReactJS como framework principal, trabalhei na concepção e desenvolvimento de todas as telas da assistente virtual.</li>
-        <li><b>Implementação Responsiva:</b> Consciente da importância da acessibilidade em diferentes dispositivos, implementei um design responsivo em todas as telas desenvolvidas.</li>
-        <li><b>Integração com Comandos de Voz:</b> Colaborei com a equipe para integrar as telas desenvolvidas com o sistema de reconhecimento de voz da assistente virtual.</li>
-        <li><b>Feedback Visual:</b> Integrei elementos visuais de feedback para fornecer aos usuários retorno imediato sobre suas ações.</li>
-    </ul>
-    <ul>
-        <h4>Tecnologias</h4>
-        <li>
-            <b>ReactJS:</b> Como principal framework para o desenvolvimento das telas da interface.    
-        </li>
-        <li>
-            <b>HTML e CSS:</b> Utilizados para a estruturação e estilização das páginas.
-        </li>
-        <li>
-            <b>JavaScript:</b> Linguagem de programação fundamental para a interatividade das telas.
-        </li>
-        <li>
-            <b>ReactJS:</b> Como principal framework para o desenvolvimento das telas da interface.
-        </li>
-    </ul>
+    <h4>Contribuições</h4>
+    <details>
+        <summary><b>Ativação por Voz</b></summary>
+        Colaborei com a equipe de backend para integrar a funcionalidade de ativação por voz, permitindo que os professores acionem a assistente virtual simplesmente usando comandos de voz. Desenvolvi a interface de usuário para exibir feedback visual quando a assistente está ouvindo ativamente os comandos do usuário.
+    </details>
+    <details>
+        <summary><b>Comandos de adição por Voz</b></summary>
+        Implementei a integração dos comandos de voz para adição de novos alunos e criação de turmas. Trabalhei na definição e reconhecimento dos padrões de voz para cada comando, garantindo que a assistente entendesse corretamente as solicitações dos professores e executasse as ações correspondentes de forma precisa e eficiente.
+    </details>
+    <details>
+        <summary><b>Feedback de Voz</b></summary>
+        Desenvolvi a funcionalidade de feedback de voz para fornecer confirmação auditiva quando os comandos de voz são reconhecidos e as ações são concluídas com sucesso. Isso ajudou a melhorar a experiência do usuário, fornecendo uma resposta imediata e garantindo que os professores se sintam confiantes ao usar a assistente virtual.
+    </details>
+    <details>
+        <summary><b>Implementação da tela de login</b></summary>
+        Desenvolvi a tela de login utilizando ReactJS, garantindo que os usuários pudessem acessar a plataforma de forma segura e intuitiva. Implementei campos de entrada para e-mail e senha, bem como validações de entrada para garantir a integridade dos dados fornecidos pelos usuários.
+    </details>
+    <details>
+        <summary><b>Implementação das telas de cadastro</b></summary>
+        Implementei as telas de cadastro de alunos, turmas e disciplinas, permitindo que os professores adicionem novos alunos, criem novas turmas e criem novas disciplinas. Utilizei formulários interativos e validações em tempo real para garantir a precisão e integridade dos dados inseridos.
+    </details>
+    <details>
+        <summary><b>Implementação Responsiva</b></summary>
+        Consciente da importância da acessibilidade em diferentes dispositivos, implementei um design responsivo em todas as telas desenvolvidas.
+    </details>
+    <details>
+        <summary><b>Feedback Visual</b></summary>
+        Integrei elementos visuais de feedback para fornecer aos usuários retorno imediato sobre suas ações.
+    </details>
+    <details>
+        <summary><b>Análise de requisitos</b></summary>
+        Participei da análise detalhada dos requisitos funcionais e não funcionais fornecidos.
+    </details>
+</section>
+<br>
+<section>
+    <h4>Tecnologias</h4>
+    <details>
+        <summary><b>ReactJS</b></summary>
+        Como principal framework para o desenvolvimento das telas da interface.    
+    </details>
+    <details>
+        <summary><b>HTML e CSS</b></summary>
+        Utilizados para a estruturação e estilização das páginas.
+    </details>
+    <details>
+        <summary><b>JavaScript:</b></summary>
+        Linguagem de programação fundamental para a interatividade das telas.   
+    </details>
 </section>
 <!-- 
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou. -->
