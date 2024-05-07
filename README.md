@@ -114,7 +114,7 @@ Repositório: [GIT](https://www.git.com/equioe-vox/BoardClass)
 </span>
 <span>}</span>
         </code></pre>
-        <p>O componente inicializa estados para controlar se o aplicativo está ouvindo, mensagens a serem exibidas, e um alerta. Além disso, define funções para manipular o estado do alerta e exibir mensagens de boas-vindas. Se o navegador não suportar o reconhecimento de voz, uma mensagem de erro é renderizada. O componente também inclui lógica para redirecionar o usuário com base nos comandos de voz reconhecidos.</p>
+        <p>O componente inicializa os estados das variáveis para controlar se o aplicativo está ouvindo, mensagens a serem exibidas, e um alerta. Além disso, define funções para manipular o estado do alerta e exibir mensagens de boas-vindas. Se o navegador não suportar o reconhecimento de voz, uma mensagem de erro é renderizada. O componente também inclui lógica para redirecionar o usuário com base nos comandos de voz reconhecidos.</p>
     </details>
     <details>
         <summary><b>Comandos de adição por Voz</b></summary>
