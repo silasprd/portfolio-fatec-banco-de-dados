@@ -70,7 +70,7 @@ Repositório: [GIT](https://www.git.com/equioe-vox/BoardClass)
     <details>
         <summary><b>Ativação por Voz</b></summary>
         <p>Colaborei com a equipe de backend para integrar a funcionalidade de ativação por voz, permitindo que os professores acionem a assistente virtual simplesmente usando comandos de voz. Desenvolvi a interface de usuário para exibir feedback visual quando a assistente está ouvindo ativamente os comandos do usuário.</p>
-        <p>O código abaixo permite aos usuários interagirem com o aplicativo por meio de comandos de voz. Para tal, utilizamos a bilbioteca SpeechRecognition do React. O componente inicializa estados para controlar se o aplicativo está ouvindo, mensagens a serem exibidas, e um alerta. Além disso, define funções para manipular o estado do alerta e exibir mensagens de boas-vindas. Se o navegador não suportar o reconhecimento de voz, uma mensagem de erro é renderizada. O componente também inclui lógica para redirecionar o usuário com base nos comandos de voz reconhecidos.</p>
+        <p>O código abaixo permite aos usuários interagirem com o aplicativo por meio de comandos de voz. Para tal, utilizamos a bilbioteca SpeechRecognition do React. </p>
         <pre><code>
 <span>export const Home = () =&gt; {</span>
 <span>
@@ -114,22 +114,147 @@ Repositório: [GIT](https://www.git.com/equioe-vox/BoardClass)
 </span>
 <span>}</span>
         </code></pre>
+        <p>O componente inicializa estados para controlar se o aplicativo está ouvindo, mensagens a serem exibidas, e um alerta. Além disso, define funções para manipular o estado do alerta e exibir mensagens de boas-vindas. Se o navegador não suportar o reconhecimento de voz, uma mensagem de erro é renderizada. O componente também inclui lógica para redirecionar o usuário com base nos comandos de voz reconhecidos.</p>
     </details>
     <details>
         <summary><b>Comandos de adição por Voz</b></summary>
         Implementei a integração dos comandos de voz para adição de novos alunos e criação de turmas. Trabalhei na definição e reconhecimento dos padrões de voz para cada comando, garantindo que a assistente entendesse corretamente as solicitações dos professores e executasse as ações correspondentes de forma precisa e eficiente.
-    </details>
-    <details>
-        <summary><b>Feedback de Voz</b></summary>
-        Desenvolvi a funcionalidade de feedback de voz para fornecer confirmação auditiva quando os comandos de voz são reconhecidos e as ações são concluídas com sucesso. Isso ajudou a melhorar a experiência do usuário, fornecendo uma resposta imediata e garantindo que os professores se sintam confiantes ao usar a assistente virtual.
-    </details>
-    <details>
-        <summary><b>Implementação da tela de login</b></summary>
-        Desenvolvi a tela de login utilizando ReactJS, garantindo que os usuários pudessem acessar a plataforma de forma segura e intuitiva. Implementei campos de entrada para e-mail e senha, bem como validações de entrada para garantir a integridade dos dados fornecidos pelos usuários.
+         <p> Este trecho de código habilita a criação de uma nova disciplina por meio de comandos de voz em um aplicativo React.</p>
+        <pre><code>
+<span>export const Home = () =&gt; {</span>
+<span>
+        useEffect(() => {
+            function disciplines() {
+            if (text3.includes("criar") || text3.includes("cadastrar")) {
+                handleCreateDiscipline();
+            }
+            }
+
+            disciplines();
+        }, [text3]);
+
+        if (!SpeechRecognition.browserSupportsSpeechRecognition()) {
+            return (
+            <div className="notSupportContainer">
+                Browser is not Support Speech Recognition.
+            </div>
+            );
+        }
+
+        const handleListening = () => {
+            setIsListening(true);
+            microphoneRef.current.classList.add("listening");
+            SpeechRecognition.startListening({
+            continuous: true,
+            });
+        };
+
+        const stopListening = () => {
+            if (text1) {
+            setText1("");
+            setText1(transcript);
+            } else {
+            setText1(transcript);
+            }
+            setIsListening(false);
+            resetTranscript();
+            console.log(text1);
+            microphoneRef.current.classList.remove("listening");
+            SpeechRecognition.stopListening();
+            resetTranscript();
+        };
+
+        const handleListening2 = () => {
+            setIsListening2(true);
+            microphoneRef2.current.classList.add("listening");
+            SpeechRecognition.startListening({
+            continuous: true,
+            });
+        };
+
+        const stopListening2 = () => {
+            if (text2) {
+            setText2("");
+            setText2(transcript);
+            } else {
+            setText2(transcript);
+            }
+            setIsListening2(false);
+            microphoneRef2.current.classList.remove("listening");
+            SpeechRecognition.stopListening();
+            resetTranscript();
+        };
+
+        const handleListening3 = () => {
+            setIsListening3(true);
+            microphoneRef3.current.classList.add("listening");
+            SpeechRecognition.startListening({
+            continuous: true,
+            });
+        };
+
+        const stopListening3 = () => {
+            if (text3) {
+            setText3("");
+            setText3(transcript);
+            } else {
+            setText3(transcript);
+            }
+            setIsListening3(false);
+            microphoneRef3.current.classList.remove("listening");
+            SpeechRecognition.stopListening();
+            resetTranscript();
+        };
+
+        function onCloseAlert(help) {
+            setAlert({
+            type: "",
+            text: "",
+            show: false,
+            });
+        }
+
+        function onShowAlert(type, index) {
+            setAlert({
+            type: type,
+            text: Globals.messages[index].message,
+            show: true,
+            });
+        }
+
+        const handleCreateDiscipline = async () => {
+            if (text1 === "" || text2 === "") {
+            onShowAlert("warning", 0);
+            } else {
+            setLoading(true);
+
+            const name = text1;
+            const description = text2;
+
+            try {
+                await api.post("subjects", { name, description });
+
+                setTimeout(() => {
+                onShowAlert("warning", 2);
+                setLoading(false);
+                setTimeout(() => {
+                    window.location.href = "/Help";
+                }, 3000);
+                }, 1000);
+            } catch (e) {
+                onShowAlert("warning", 6);
+            }
+        }
+</span>
+<span>}</span>
+        </code></pre>
+        <p>Inicialmente, são definidos estados para controlar o reconhecimento de voz, o carregamento, as transcrições de voz e alertas. O componente também define referências de microfone. A função handleCreateDiscipline é acionada quando um comando de voz para criar ou cadastrar uma disciplina é detectado. A função valida se os campos de nome e descrição da disciplina estão preenchidos. Em caso positivo, os dados são coletados e uma solicitação POST é enviada ao servidor para criar a disciplina.</p>
     </details>
     <details>
         <summary><b>Implementação das telas de cadastro</b></summary>
-        Implementei as telas de cadastro de alunos, turmas e disciplinas, permitindo que os professores adicionem novos alunos, criem novas turmas e criem novas disciplinas. Utilizei formulários interativos e validações em tempo real para garantir a precisão e integridade dos dados inseridos.
+        <p>Implementei as telas de cadastro de alunos, turmas e disciplinas, permitindo que os professores adicionem novos alunos, criem novas turmas e criem novas disciplinas. Utilizei formulários interativos e validações em tempo real para garantir a precisão e integridade dos dados inseridos.</p>
+        <p>Abaixo está uma das telas desenvolvidas, neste caso, para o cadastro de disciplinas.</p>
+        <img src="Semestre1/images/discipline-register.png" alt="discipline-register-screen">
     </details>
     <details>
         <summary><b>Implementação Responsiva</b></summary>
