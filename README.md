@@ -26,7 +26,7 @@ Com formação técnica em Desenvolvimento de Sistemas pelo SENAI em parceria co
 
 ### 1º Semestre • 1/2022 - BoardClass
 
-Repositório: [GIT](https://www.git.com/silasprd/BoardClass)
+Repositório: [GIT](https://www.git.com/equioe-vox/BoardClass)
 
 <p align="justify">Parceiro Acadêmico: <a href="https://fatecsjc-prd.azurewebsites.net/">Faculdade de Tecnologia de São José dos Campos</a></p>
 
@@ -69,7 +69,51 @@ Repositório: [GIT](https://www.git.com/silasprd/BoardClass)
     <h4>Contribuições</h4>
     <details>
         <summary><b>Ativação por Voz</b></summary>
-        Colaborei com a equipe de backend para integrar a funcionalidade de ativação por voz, permitindo que os professores acionem a assistente virtual simplesmente usando comandos de voz. Desenvolvi a interface de usuário para exibir feedback visual quando a assistente está ouvindo ativamente os comandos do usuário.
+        <p>Colaborei com a equipe de backend para integrar a funcionalidade de ativação por voz, permitindo que os professores acionem a assistente virtual simplesmente usando comandos de voz. Desenvolvi a interface de usuário para exibir feedback visual quando a assistente está ouvindo ativamente os comandos do usuário.</p>
+        <p>O código abaixo permite aos usuários interagirem com o aplicativo por meio de comandos de voz. Para tal, utilizamos a bilbioteca SpeechRecognition do React. O componente inicializa estados para controlar se o aplicativo está ouvindo, mensagens a serem exibidas, e um alerta. Além disso, define funções para manipular o estado do alerta e exibir mensagens de boas-vindas. Se o navegador não suportar o reconhecimento de voz, uma mensagem de erro é renderizada. O componente também inclui lógica para redirecionar o usuário com base nos comandos de voz reconhecidos.</p>
+        <pre><code>
+<span>export const Home = () =&gt; {</span>
+<span>
+        function onShowAlert(type) {
+            setAlert({
+            type: type,
+            text: "Olá! Sou o assistente BoardClass. Você pode pressionar o botão azul ao lado e me dar um comando por voz! ;)",
+            show: true,
+            });
+        }
+
+        useEffect(() => {
+            setTimeout(() => {
+            speak({
+                text: textSpeek,
+            });
+            onShowAlert("warning");
+            }, 1500);
+        }, []);
+
+        if (!SpeechRecognition.browserSupportsSpeechRecognition()) {
+            return (
+            <div className={styles.notSupportContainer}>
+                Browser is not Support Speech Recognition.
+            </div>
+            );
+        }
+        const handleListening = () => {
+            setIsListening(true);
+            microphoneRef.current.classList.add("listening");
+            SpeechRecognition.startListening({
+            continuous: true,
+            });
+        };
+
+        const stopListening = () => {
+            setIsListening(false);
+            microphoneRef.current.classList.remove("listening");
+            SpeechRecognition.stopListening();
+        };
+</span>
+<span>}</span>
+        </code></pre>
     </details>
     <details>
         <summary><b>Comandos de adição por Voz</b></summary>
