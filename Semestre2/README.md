@@ -13,19 +13,19 @@ Repositório: [GIT](https://github.com/equipe-vox/api-2sem)
 
 <section>
     <div>
-        <img align="center" alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg">
+        <img align="center" alt="Figma-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg">
         Figma: Design
     </div>
     <div>
-        <img align="center" alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg">
+        <img align="center" alt="Java-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg">
         Java: Ecossistema
     </div>
     <div>
-        <img align="center" alt="JS-icon" height="35" width="50" src="./images/JavaFX.png">
+        <img align="center" alt="JavaFX-icon" height="35" width="50" src="./images/JavaFX.png">
         JavaFX: Frontend
     </div>
     <div>
-        <img align="center" alt="JS-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg">
+        <img align="center" alt="Postgres-icon" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg">
         PostgresSQL: Banco de dados
     </div>   
 </section>
