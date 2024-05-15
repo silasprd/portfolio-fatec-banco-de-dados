@@ -24,7 +24,8 @@ Com formação técnica em Desenvolvimento de Sistemas pelo SENAI em parceria co
 
 ## Meus Projetos
 
-### [Semestre1](./Semestre1)
+### [1° Semestre](./Semestre1)
+### [2° Semestre](./Semestre2)
 
 
 
