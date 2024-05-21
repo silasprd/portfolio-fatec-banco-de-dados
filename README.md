@@ -26,6 +26,7 @@ Com formação técnica em Desenvolvimento de Sistemas pelo SENAI em parceria co
 
 ### [1° Semestre](./Semestre1)
 ### [2° Semestre](./Semestre2)
+### [3° Semestre](./Semestre3)
 
 
 
